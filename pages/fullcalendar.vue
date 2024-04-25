@@ -19,7 +19,6 @@
       </v-row>
     </v-container>
     <v-btn @click="addEvent">Add Event</v-btn>
-    <!-- <v-btn @click="endEvent">End Event</v-btn> -->
 
     <FullCalendar :options="calendarOptions" />
   </div>
