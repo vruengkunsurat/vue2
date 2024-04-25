@@ -44,8 +44,7 @@ export default {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-            username: this.username,
-            password: this.password
+            
           })
         });
         const data = await response.json();
